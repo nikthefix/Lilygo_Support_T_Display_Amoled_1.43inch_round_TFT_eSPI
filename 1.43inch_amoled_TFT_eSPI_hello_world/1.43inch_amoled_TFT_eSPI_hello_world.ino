@@ -1,6 +1,6 @@
 /*
 nikthefix - 24.01.25
-For Lilygo T-Display-S3-Amoled-1.75"
+For Lilygo T-Display-S3-Amoled-1.43"
 Test sketch using TFT_eSPI in 'sprite only mode' 
 
 
@@ -97,7 +97,6 @@ void setup()
     //lcd_setRotation(0); //map touch coordinates for different rotations
     lcd_brightness(150); // 0-255    
     sprite.createSprite(466, 466);    // full screen landscape sprite in psram
-    sprite.setSwapBytes(1);
     draw_first();   
 }
 
